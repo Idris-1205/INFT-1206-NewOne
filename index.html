@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Accessible and Cool Web Page - Assignment 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--
+         Name: Aidress Qadeer
+         File: index.html
+         Date: 10 April 2025
+         Description: An accessible, modern, and appealing web page demonstrating web accessibility best practices and interactive features.
+         The background is a futuristic image with transparent, blurred text blocks. The "Click Me!" button triggers an advanced full-screen ripple animation effect.
+-->
+<div class="container">
+    <header>
+        <h1>Accessible Web Page - Assignment 5</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#data">Data Table</a></li>
+                <li><a href="#demo">Demo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section id="intro">
+            <h2>Introduction</h2>
+            <p>
+                Welcome to this accessible and stylish web page. It demonstrates best practices in web accessibility with semantic HTML, improved contrast, accessible media, and interactive JavaScript features. Now featuring a dynamic, futuristic background that stays fixed while you scroll.
+            </p>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <p>This page showcases:</p>
+            <ul>
+                <li>Semantic HTML structure without deprecated tags.</li>
+                <li>High-contrast design for easier reading.</li>
+                <li>Accessible image and media elements with descriptive text.</li>
+                <li>Interactive elements with smooth transitions.</li>
+                <li>Transparent, blurred containers giving a floating effect.</li>
+            </ul>
+        </section>
+
+        <section id="media">
+            <h2>Accessible Media</h2>
+            <p>Below is an image example with descriptive alternative text:</p>
+            <img src="accessible-image.jpg" alt="Infographic displaying web accessibility best practices including proper color contrast, keyboard navigation, and alternative text description" width="400">
+            
+            <h3>Audio Example</h3>
+            <audio controls aria-label="Accessible audio explanation of web accessibility features">
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>
+                <strong>Transcript:</strong> This audio clip explains web accessibility best practices, including the use of semantic HTML, improved color contrast, and alternative text for images to enhance usability for all users.
+            </p>
+        </section>
+
+        <section id="data">
+            <h2>Accessible Data Table</h2>
+            <table summary="Employee performance for Q1 2025">
+                <caption>Employee Performance - Q1 2025</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Employee</th>
+                        <th scope="col">Department</th>
+                        <th scope="col">Performance Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Alice</th>
+                        <td>Development</td>
+                        <td>Excellent</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bob</th>
+                        <td>Marketing</td>
+                        <td>Good</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Charlie</th>
+                        <td>Support</td>
+                        <td>Very Good</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="demo">
+            <h2>Interactive Demo</h2>
+            <p>
+                Click the button below to experience the super advanced interactive effect:
+            </p>
+            <button class="cool-button" id="demo-button">Click Me!</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Accessible Web Development. All rights reserved.</p>
+    </footer>
+</div>
+
+<!-- Link to external JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>
